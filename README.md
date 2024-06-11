@@ -27,3 +27,4 @@ This project was completed as part of my training on FreeCodeCamp(https://www.fr
 
 ## Author
 T-A-B
+# US-phone-Numbers-Validator
