@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* General styles */
+body {
+  background-color: #ff000057;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#input-container {
+  margin-bottom: 20px;
+}
+
+#user-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #FFE194;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+#user-input:focus {
+  border-color: #0000ff;
+  outline: none;
+  box-shadow: 0 0 10px #0000ff;
+}
+
+#button-container {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #ff0000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+  border-color: #0000ff;
+  box-shadow: 0 0 10px #0000ff;
+}
+
+#results-div {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+}
